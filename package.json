@@ -1,0 +1,27 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "A simple blogapp with the purpose of learning Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateus Coutinho Marim",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.10",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6"
+  }
+}

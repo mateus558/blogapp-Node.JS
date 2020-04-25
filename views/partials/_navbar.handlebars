@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark flex-nowrap mb-0 rounded-0">
+    <a class="navbar-brand center-block w-100" href="/">NodeJS Blog</a>
+    
+    <div class="navbar-collapse collapse w-100 justify-content-center" id="navbar5">
+          <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/categorias">Categorias</a>
+        </li>
+        {{#if user}}
+          <li class="nav-item">
+            <a class="nav-link" href="/usuarios/logout">Sair</a>
+          </li>
+        {{else}}
+          <li class="nav-item">
+            <a class="nav-link" href="/usuarios/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/usuarios/registro">Registro</a>
+          </li>
+        {{/if}}
+        </ul>
+        
+    </div>  
+    <div class="text-center center-block navbar-right w-100" id="#navbar5">
+          <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+          <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+          <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-in" class="fa fa fa-instagram fa-3x social"></i></a>
+          <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+    </div>
+    
+    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar5">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
